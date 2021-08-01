@@ -15,8 +15,8 @@ h1, h4 {
 /* ----- Section ----- */
 
 .banner-block {
-    margin: auto;
-    padding: 80px 10px;
+    margin: 80px auto;
+    padding: 0 20px;
     width: fit-content;
 }
 
