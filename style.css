@@ -1,0 +1,114 @@
+/* ----- General ----- */
+body {
+    background-color: #0D1730 !important;   
+    color: #C5CFEB !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+}
+
+h1, h4 {
+    letter-spacing: 0.075em;
+}   
+/* ---------- */
+
+/* ----- Section ----- */
+
+.banner-block {
+    margin: auto;
+    padding: 80px 10px;
+    width: fit-content;
+}
+
+.banner-block h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner-block h4 {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.banner-block #custom-text {
+    color: #AFEEEE;
+}
+
+.banner-block #custom-button {
+    margin: 20px 0;
+}
+
+.banner-block #custom-button a {
+    border: 2px solid #AFEEEE;
+    border-radius: 10px;
+    color: #AFEEEE;
+    padding: 4px 8px;
+    width: fit-content;
+}
+
+.banner-block #custom-button a:hover {
+    background-color: #AFEEEE;
+    color: #0D1730;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.socmed-block {
+    text-align: center;
+}
+
+.socmed-block i {
+    color: #C5CFEB;
+    font-size: 32px;
+    margin: 0 20px;
+}
+
+.socmed-block i:hover {
+    color: #FFFFFF;
+    transition: 0.25s;
+}
+
+@media screen and (max-width: 767.96px) {
+    .banner-block h1 {
+        font-size: 40px;
+    }
+
+    .banner-block h4 {
+        font-size: 24px;
+    }
+}
+
+/* ---------- */
+
+/* ----- Footer ----- */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright-block {
+    margin: 20px 0;
+}
+
+/* ---------- */
+
+/* ----- Animation ----- */
+.fa-snowflake {
+    animation: fall linear forwards;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(95vh);
+    }
+}
+
+/* ---------- */
